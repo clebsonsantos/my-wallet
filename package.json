@@ -13,6 +13,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-switch": "^6.0.0",
     "styled-components": "^5.2.3",
@@ -29,8 +30,10 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ],  
-  "rules": {  "import/no-anonymous-default-export": "off"}
+    ],
+    "rules": {
+      "import/no-anonymous-default-export": "off"
+    }
   },
   "browserslist": {
     "production": [
@@ -45,6 +48,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-router-dom": "^5.1.8",
     "@types/styled-components": "^5.1.9"
   }
 }
